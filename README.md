@@ -24,6 +24,7 @@ This app allows users to convert amounts between multiple currencies using real-
 **Conversion Logic (How it works)**
 
 All currency values are stored relative to a **base unit**.
+
 Formula used:
 convertedAmount = (amount / rateOfFromCurrency) × rateOfToCurrency
 
@@ -34,8 +35,3 @@ This ensures:
 - No currency is treated as “special”
 - Works exactly like **Play Store currency apps**
 
-
-
-
-
-Formula used:
